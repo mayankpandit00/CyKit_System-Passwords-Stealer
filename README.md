@@ -8,11 +8,12 @@ Python 3, cmd/terminal or any IDE (vscode or pycharm)
 ### Introduction : 
 
 ### Setup : 
-1. Download Python 3, Send Emails code and any IDE:
+1. Download Python 3, Send Emails code, LaZagne and any IDE:
    1. https://www.python.org/downloads/ (python 3)
    2. https://github.com/mayankpandit00/CyKit_Send-Mails (Send Mails)
-   3. https://www.jetbrains.com/pycharm/download/#section=windows (pycharm)
-   4. https://code.visualstudio.com/download (vscode)
+   3. https://github.com/AlessandroZ/LaZagne/releases/download/v2.4.5/LaZagne.exe
+   4. https://www.jetbrains.com/pycharm/download/#section=windows (pycharm)
+   5. https://code.visualstudio.com/download (vscode)
 
 2. Download repository :
    1. On GitHub, navigate to the main page of the repository.
